@@ -1,0 +1,49 @@
+.main_wrapper {
+  height:100vh;
+  width: 100%;
+  background: linear-gradient(-141deg, #F681AA 0%, #644AEA 100% );
+}
+.main_header{
+  width: 100%;
+  background:#ccc;
+  padding: 20px 100px;
+  color: #fff;
+}
+
+.logo{
+  float: left;
+}
+.main_nav {
+  float: right;
+}
+.main_nav ul li {
+  display: inline-block;
+  max-resolution: 20px;;
+}
+.value_prop {
+  font-size: 65px;
+  font-weight: 200;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.main_cta {
+  background: #fff;
+  padding-left: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius:6px;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #B669C6;
+}
+.content_section {
+  padding-left: 100px;
+  margin-top:20vh;
+  float: left;
+}
+.phone_img {
+  float: right;
+  margin-top: 1vh;
+  padding-right: 80px;
+
+}

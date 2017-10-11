@@ -1,0 +1,46 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.main_header{
+    position: absolute;
+    width: 100%;
+    height: 65px;
+    top:0;
+    z-index:3;
+}
+
+.main_nav{
+    position: absolute;
+    top:20px;
+    right:20px;
+    background: white;
+}
+.main_nav ul{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+.bg_left_wrapper{
+    position: relative;
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+.bg_left{
+    position: absolute;
+    top:0;
+    height: 100%;
+    left: 0;
+}
+.value_prop{
+    margin-bottom: 200px;
+    color: #fff;
+    z-index: 2;
+    font-weight: 300;
+    font-size: 30px;
+    color:#fff;
+}
